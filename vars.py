@@ -18,7 +18,7 @@ def get_env_list(name, default):
         return [int(x) for x in default.split(',')]
 
 API_ID = get_env_int("API_ID", "24051437")
-API_HASH = environ.get("API_HASH", "d351c67e77c56cdfaf3a6815129438fd")
+API_HASH = environ.get("API_HASH", "d531c67e17c56dcfaf3a6815f29438fd")
 BOT_TOKEN = environ.get("BOT_TOKEN", "7512869031:AAEUN1SiNKbQGRQOOgDZKDYbeuweyNHmK9o")
 
 OWNER = get_env_int("OWNER", "5587210448")
